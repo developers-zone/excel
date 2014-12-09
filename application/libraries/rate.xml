@@ -1,0 +1,36 @@
+
+<xs:element name="ServiceType" type="ns:ServiceType">
+
+<xs:simpleType name="ServiceType">
+<xs:restriction base="xs:string">
+<xs:enumeration value="EUROPE_FIRST_INTERNATIONAL_PRIORITY"/>
+<xs:enumeration value="FEDEX_1_DAY_FREIGHT"/>
+<xs:enumeration value="FEDEX_2_DAY"/>
+<xs:enumeration value="FEDEX_2_DAY_AM"/>
+<xs:enumeration value="FEDEX_2_DAY_FREIGHT"/>
+<xs:enumeration value="FEDEX_3_DAY_FREIGHT"/>
+<xs:enumeration value="FEDEX_DISTANCE_DEFERRED"/>
+<xs:enumeration value="FEDEX_EXPRESS_SAVER"/>
+<xs:enumeration value="FEDEX_FIRST_FREIGHT"/>
+<xs:enumeration value="FEDEX_FREIGHT_ECONOMY"/>
+<xs:enumeration value="FEDEX_FREIGHT_PRIORITY"/>
+<xs:enumeration value="FEDEX_GROUND"/>
+<xs:enumeration value="FEDEX_NEXT_DAY_AFTERNOON"/>
+<xs:enumeration value="FEDEX_NEXT_DAY_EARLY_MORNING"/>
+<xs:enumeration value="FEDEX_NEXT_DAY_END_OF_DAY"/>
+<xs:enumeration value="FEDEX_NEXT_DAY_FREIGHT"/>
+<xs:enumeration value="FEDEX_NEXT_DAY_MID_MORNING"/>
+<xs:enumeration value="FIRST_OVERNIGHT"/>
+<xs:enumeration value="GROUND_HOME_DELIVERY"/>
+<xs:enumeration value="INTERNATIONAL_ECONOMY"/>
+<xs:enumeration value="INTERNATIONAL_ECONOMY_FREIGHT"/>
+<xs:enumeration value="INTERNATIONAL_FIRST"/>
+<xs:enumeration value="INTERNATIONAL_PRIORITY"/>
+<xs:enumeration value="INTERNATIONAL_PRIORITY_FREIGHT"/>
+<xs:enumeration value="PRIORITY_OVERNIGHT"/>
+<xs:enumeration value="SAME_DAY"/>
+<xs:enumeration value="SAME_DAY_CITY"/>
+<xs:enumeration value="SMART_POST"/>
+<xs:enumeration value="STANDARD_OVERNIGHT"/>
+</xs:restriction>
+</xs:simpleType>
